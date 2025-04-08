@@ -1,0 +1,76 @@
+/* Global layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Netflix black */
+    color: #ffffff; /* Netflix white */
+    padding: 20px;
+}
+#app {
+    text-align: center;
+}
+/* Movie title buttons */
+.movie-btn {
+    display: block;
+    margin: 12px auto; /* space between buttons and center align */
+    background-color: #e50914;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.movie-btn:hover {
+    background-color: #d4080c;
+}
+
+/* Form elements */
+textarea,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: 1px solid #767676;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #b00610;
+}
+
+/* Comments */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #333333;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .text {
+    flex: 1;
+}
